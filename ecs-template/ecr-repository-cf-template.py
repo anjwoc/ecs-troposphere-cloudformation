@@ -25,7 +25,7 @@ t.add_resource(Repository(
     RepositoryName=Ref("RepoName")
 ))
 
-t.add_output(Output(
+t.add_output(Output(    
     "Repository",
     Description="ECR repository",
     Value=Ref("RepoName"),
